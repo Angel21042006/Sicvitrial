@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28f5aa"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/anatomy_1751201_640"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+
+        tools:layout_editor_absoluteY="93dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/sample_user_icon"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="247dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="Si importas"
+        android:textSize="30"
+        app:fontFamily="@font/k2d_light"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="95dp"
+        android:layout_height="33dp"
+        android:text="Nombre:"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="125dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="102dp"
+        android:layout_height="35dp"
+        android:background="#18de5e"
+        android:gravity="center"
+        android:text="Apellido:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="82dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="212dp"
+        android:layout_height="44dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="387dp"
+        tools:srcCompat="@drawable/gmail_icon_free_png" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="101dp"
+        android:layout_height="26dp"
+        android:text="Correo"
+        tools:layout_editor_absoluteX="48dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        tools:layout_editor_absoluteX="53dp"
+        android:textColor="#000000"
+        android:textSize="24"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/sample_user_icon"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="208dp"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/_47305"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sig in"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
